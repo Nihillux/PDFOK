@@ -2,7 +2,7 @@ import os
 import PyPDF2
 
 from PyPDF2 import PdfFileReader
-print('Archivo, Anchomm, Altomm, Pagina, Paginas, Sangre')
+print('Archive, Widthmm, Hightmm, Page, Pages, Bleed')
 for root, dirs, files in os.walk(r'./'):
     for f in files:
         if f.endswith(".pdf"):
